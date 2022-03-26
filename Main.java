@@ -17,6 +17,19 @@ public class Main {
         
         contrD.calcularIRPF();
         System.out.println("imposto de renda do salário R$5600: "+contrD.getDescIrpf());
+        
+        //calculo salario liquido
+        System.out.println();
+        System.out.println("salario liquido do Cleiton: R$"+ contrA.calcularSalarioLiq());
+        System.out.println("salario liquido do Caio: R$"+ contrB.calcularSalarioLiq());
+        System.out.println("salario liquido do Guilherme: R$"+ contrC.calcularSalarioLiq());
+        System.out.println("salario liquido do Gustavo: R$"+ contrD.calcularSalarioLiq());
+
+        // imprimir atributos
+        contrA.imprimir();
+        contrB.imprimir();
+        contrC.imprimir();
+        contrD.imprimir();
     }
 
 }
