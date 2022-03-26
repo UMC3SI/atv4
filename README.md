@@ -13,9 +13,13 @@
 ## Após essa implementação responda:
 
 - Qual é o desconto de Imposto de Renda sob o salário de R$ 1.300,00?
+ imposto de renda do salário R$1300: 0.0
 - Qual é o desconto de Imposto de Renda sob o salário de R$ 2.150,00?
+imposto de renda do salário R$2150: 161.25
 - Qual é o desconto de Imposto de Renda sob o salário de R$ 3.500,00?
+imposto de renda do salário R$3500: 525.0
 - Qual é o desconto de Imposto de Renda sob o salário de R$ 5.600,00?
+imposto de renda do salário R$5600: 1540.0
 
 - Colocar essa informação no Readme do Git ou Em comentários de código na classe main
 
